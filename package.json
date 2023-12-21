@@ -1,0 +1,39 @@
+{
+  "name": "windmill-dashboard-nextjs-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "chart.js": "^3.6.1",
+    "classnames": "^2.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^12.2.5",
+    "next-auth": "^4.24.4",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.0.0",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.18.0",
+    "windmill": "^0.1.3"
+  },
+  "devDependencies": {
+    "@roketid/windmill-react-ui": "^0.1.1",
+    "@svgr/webpack": "^6.1.0",
+    "@types/node": "^20.8.10",
+    "@types/react": "17.0.21",
+    "autoprefixer": "^10.4.2",
+    "cssnano": "^5.0.12",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22",
+    "typescript": "^4.4.3"
+  }
+}
